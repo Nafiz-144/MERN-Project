@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Playwrite GB S", cursive;
+}
+.container {
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #80ed99;
+  box-shadow: 5px 2px 30px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.nav-links ul li a {
+  color: #090a00;
+  column-gap: 500;
+}
+.nav-links ul li a:hover {
+  color: #840505;
+}
+.banner {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  align-items: center;
+  height: 95vh;
+}
+.intro {
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(54, 38, 38);
+}
+.name {
+  font-weight: 700;
+  font-size: 60px;
+  color: #120527;
+}
+img {
+  height: 400px;
+  width: 300px;
+}
+.resume {
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: aquamarine;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.resume:hover {
+  background-color: #c7f9cc;
+  cursor: pointer;
+  transition: 0.3s;
+}
