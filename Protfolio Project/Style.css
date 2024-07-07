@@ -24,6 +24,7 @@ nav {
   background-color: #80ed99;
   box-shadow: 5px 2px 30px 5px rgba(0, 0, 0, 0.1);
 }
+
 .nav-links ul {
   display: flex;
   align-items: center;
