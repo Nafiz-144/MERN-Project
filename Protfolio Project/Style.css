@@ -14,14 +14,14 @@ body {
 }
 .container {
   padding: 20px;
-  background-color: #978686;
+  background-color: #f7e788;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2% 10%;
-  background-color: #80ed99;
+  background-color: #ebb12a;
   box-shadow: 5px 2px 30px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,11 +31,11 @@ nav {
   column-gap: 10px;
 }
 .nav-links ul li a {
-  color: #090a00;
+  color: #7ca633;
   column-gap: 500;
 }
 .nav-links ul li a:hover {
-  color: #840505;
+  color: #0c0000;
 }
 .banner {
   display: grid;
@@ -52,9 +52,9 @@ nav {
 .name {
   font-weight: 700;
   font-size: 60px;
-  color: #120527;
+  color: #588729;
 }
-img {
+.mypic {
   height: 400px;
   width: 300px;
   margin-right: 500px;
@@ -63,14 +63,14 @@ img {
   padding: 15px 25px;
   border-radius: 10px;
   border: none;
-  background-color: aquamarine;
+  background-color: #3b542c;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
   margin-top: 30px;
 }
 .resume:hover {
-  background-color: #c7f9cc;
+  background-color: #b52924;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -80,7 +80,7 @@ img {
   display: grid;
   grid-template-columns: 9fr 3fr;
   align-items: center;
-  padding: 0% 20%;
+  padding: 0% 10%;
 }
 .about-img img {
   border-radius: 50%;
@@ -90,12 +90,53 @@ img {
 .about-content h3 {
   font-size: 26px;
   font-weight: 500;
-  color: #c7f9cc;
+  color: #9c241e;
   margin-bottom: 15px;
 }
 .about-content p {
   font-size: 18px;
-  border-left: 2px solid #115518;
+  border-left: 2px solid #5c4130;
   padding-left: 15px;
 }
 /*about css end*/
+/* tech start */
+.technology {
+  padding: 0% 20%;
+}
+.technology h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #02020a;
+  text-align: center;
+  margin: 50px 0;
+}
+.techs {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  column-gap: 20px;
+  row-gap: 30px;
+}
+.techs img {
+  width: 200px;
+  height: 100px;
+}
+.techs img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+/*tech end*/
+/*project start*/
+
+.project {
+  padding: 0% 20%;
+}
+.project h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: aqua;
+  text-align: center;
+  margin: 50px 0;
+}
+
+/*project end*/
