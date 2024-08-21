@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Coding</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-
-    <title>Home Page</title>
   </head>
-  <body>
-    <nav class="navbar shadow-sm sticky-top navbar-expand-lg navbar-light bg-white py-3">
-      <a href="#" class="navbar-brand">Sadman Islam</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarTogglerDemo"
-        aria-controls="navbarTogglerDemo"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-        </ul>
+  <header>
+    <div class="navbar">
+      <div class="navbar-logo border">
+        <div class="logo"><i class="fa-solid fa-laptop-code"></i></div>
       </div>
-    </nav>
+    </div>
+  </header>
 
-    <script src="js/bootstrap.bundle.js"></script>
+  <!-- Huge modal -->
+  <button
+    type="button"
+    class="btn btn-primary open-modal"
+    data-toggle="modal"
+    data-target=".bd-example-modal-xl"
+  >
+    Huge Modal
+  </button>
+
+  <div
+    class="modal fade bd-example-modal-xl"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="myHugeModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">Modal content goes here...</div>
+    </div>
+  </div>
   </body>
 </html>
